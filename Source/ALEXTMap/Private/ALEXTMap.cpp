@@ -7,11 +7,11 @@
 
 #define LOCTEXT_NAMESPACE "FALEXTMapModule"
 
-#define BENCHMARK 0
+#define ALEX_BENCHMARK 0
 
 void FALEXTMapModule::StartupModule()
 {
-#if BENCHMARK
+#if ALEX_BENCHMARK
 	{
 		TMap<int32, int32> Map;
 		for (long idx = 0; idx < 10000000; idx++) {
