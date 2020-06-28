@@ -5,7 +5,7 @@
 #include "alex.h"
 #include "Containers/Map.h"
 
-// Notes: Originally I wanted to inherit from TMapBase and override everything that touches the Pair set, that's a really hacky solution but it's the best solution to ensure compatability with every other container.
+// Notes: Originally I wanted to inherit from TMapBase and override everything that touches the Pair set, that's a really hacky solution but it's the best solution to ensure compatibility with every other container.
 // TODO replace with std::allocator with UE4 TSetAllocator
 
 /*

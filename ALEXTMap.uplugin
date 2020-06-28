@@ -6,7 +6,7 @@
 	"Description": "Microsoft's ALEX is a ML-enhanced range index, similar in functionality to a B+ Tree. This plugin provides a near drop-in replacement for TMap that incorporates ALEX.",
 	"Category": "Other",
 	"CreatedBy": "Mark J. Grikis (@MarkJGx), Microsoft (https://github.com/microsoft/ALEX)",
-	"CreatedByURL": "",
+	"CreatedByURL": "https://github.com/MarkJGx/ALEXTMap",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
