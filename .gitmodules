@@ -1,0 +1,3 @@
+[submodule "Source/ThirdParty/ALEXTMapLibrary/ALEX"]
+	path = Source/ThirdParty/ALEXTMapLibrary/ALEX
+	url = git@github.com:microsoft/ALEX.git
