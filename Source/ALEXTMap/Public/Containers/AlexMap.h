@@ -108,14 +108,14 @@ public:
     FORCEINLINE ValueType& At(const KeyType& Key)
     {
         ValueType* Payload = Alex.get_payload(Key);
-        // check(Payload != nullptr, "TAlexMap::At: input does not match any key.");
+        checkf(Payload != nullptr, TEXT("TAlexMap::At: input does not match any key."));
         return *Payload;
     }
 
     FORCEINLINE const ValueType& At(const KeyType& Key) const
     {
         ValueType* Payload = Alex.get_payload(Key);
-        // check(Payload != nullptr, "TAlexMap::At: input does not match any key.");
+        checkf(Payload != nullptr, TEXT("TAlexMap::At: input does not match any key."));
         return *Payload;
     }
 
