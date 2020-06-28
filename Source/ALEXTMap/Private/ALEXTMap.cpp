@@ -40,7 +40,7 @@ void FALEXTMapModule::StartupModule()
 		}
 		auto TAlexEndTime = std::chrono::high_resolution_clock::now();
 		double TAlexLookUpTime =
-            std::chrono::duration_cast<std::chrono::nanoseconds>(TAlexEndTime - TAlexEndTime).count();
+            std::chrono::duration_cast<std::chrono::nanoseconds>(TAlexEndTime - TMapStartTime).count();
 		UE_LOG(LogTemp, Warning, TEXT("TAlexMap Lookup Time: %f"), TAlexLookUpTime);
 		
 	}
