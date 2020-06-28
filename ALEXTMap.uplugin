@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "ALEXTMap",
+	"Description": "Microsoft's ALEX is a ML-enhanced range index, similar in functionality to a B+ Tree. This plugin provides a near drop-in replacement for TMap that incorporates ALEX.",
+	"Category": "Other",
+	"CreatedBy": "Mark J. Grikis (@MarkJGx), Microsoft (https://github.com/microsoft/ALEX)",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ALEXTMap",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}
