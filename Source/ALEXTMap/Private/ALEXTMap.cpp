@@ -3,7 +3,7 @@
 #include "ALEXTMap.h"
 #include "Core.h"
 #include "Modules/ModuleManager.h"
-#include "alex.h"
+#include "AlexMap.h"
 
 #define LOCTEXT_NAMESPACE "FALEXTMapModule"
 
